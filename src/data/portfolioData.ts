@@ -114,7 +114,29 @@ export const services: Service[] = [
 
 export const projects: Project[] = [
   {
+    id: "iqra-adim",
+    title: "İqra Adım — Mobil Uygulama",
+    category: "App Dev",
+    year: "2026 / Yakında",
+    shortDesc: {
+      tr: "Google Play Store'da yayınlanmak üzere olan, modern ve kullanıcı dostu eğitsel mobil uygulama.",
+      en: "Modern and intuitive mobile learning application coming soon to Google Play Store."
+    },
+    fullDesc: {
+      tr: "İqra Adım; kullanıcı dostu mobil arayüzü, zengin içerik takibi ve modern UX mimarisi ile Android platformunda yayımlanma aşamasında olan mobil uygulama projemdir.",
+      en: "İqra Adım is an Android mobile application featuring user-friendly UI, interactive learning modules, and modern mobile UX currently in Google Play Store review stage."
+    },
+    tech: ["App Dev", "Android", "Mobile UI/UX", "Google Play Console"],
+    image: "/assets/kadirkuzucu_cover.jpg",
+    liveUrl: "https://play.google.com/store/apps/details?id=com.kadirkuzucu.iqraadim",
+    highlights: {
+      tr: ["Google Play Yayım Aşamasında 🚀 (Yakında)", "Mobil Odaklı UI/UX Tasarımı", "Android Platform Entegrasyonu"],
+      en: ["Google Play Store Review Stage 🚀 (Coming Soon)", "Mobile-First UI/UX Design", "Android Native Integration"]
+    }
+  },
+  {
     id: "alesta-yacht-hotel",
+
     title: "Alesta Yacht Hotel",
     category: "Corporate",
     year: "2024",
