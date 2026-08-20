@@ -15,8 +15,10 @@ export const Projects: React.FC = () => {
     'All',
     'Corporate',
     'Web Dev',
-    'E-Commerce'
+    'E-Commerce',
+    'App Dev'
   ] as const;
+
 
   const filteredProjects = selectedCategory === 'All'
     ? projects

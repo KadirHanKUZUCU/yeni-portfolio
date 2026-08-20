@@ -127,7 +127,8 @@ export const projects: Project[] = [
       en: "İqra Adım is an Android mobile application featuring user-friendly UI, interactive learning modules, and modern mobile UX currently in Google Play Store review stage."
     },
     tech: ["App Dev", "Android", "Mobile UI/UX", "Google Play Console"],
-    image: "/assets/kadirkuzucu_cover.jpg",
+    image: "/assets/mobile_app_dev.jpg",
+
     liveUrl: "https://play.google.com/store/apps/details?id=com.kadirkuzucu.iqraadim",
     highlights: {
       tr: ["Google Play Yayım Aşamasında 🚀 (Yakında)", "Mobil Odaklı UI/UX Tasarımı", "Android Platform Entegrasyonu"],
